@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86103250190619820080FECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8610324F190619820080FECC /* Foundation.framework */; };
+		86103252190619820080FECC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86103251190619820080FECC /* CoreGraphics.framework */; };
+		86103254190619820080FECC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86103253190619820080FECC /* UIKit.framework */; };
+		8610325A190619820080FECC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86103258190619820080FECC /* InfoPlist.strings */; };
+		8610325C190619820080FECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8610325B190619820080FECC /* main.m */; };
+		86103260190619820080FECC /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8610325F190619820080FECC /* XYZAppDelegate.m */; };
+		86103262190619820080FECC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86103261190619820080FECC /* Images.xcassets */; };
+		86103269190619820080FECC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86103268190619820080FECC /* XCTest.framework */; };
+		8610326A190619820080FECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8610324F190619820080FECC /* Foundation.framework */; };
+		8610326B190619820080FECC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86103253190619820080FECC /* UIKit.framework */; };
+		86103273190619820080FECC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86103271190619820080FECC /* InfoPlist.strings */; };
+		86103275190619820080FECC /* SimpleStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86103274190619820080FECC /* SimpleStorageTests.m */; };
+		8610327F19061A3D0080FECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8610327E19061A3D0080FECC /* Main.storyboard */; };
+		8610328219062D7B0080FECC /* XYZSaveFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8610328119062D7B0080FECC /* XYZSaveFMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8610326C190619820080FECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86103244190619820080FECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8610324B190619820080FECC;
+			remoteInfo = SimpleStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8610324C190619820080FECC /* SimpleStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8610324F190619820080FECC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86103251190619820080FECC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86103253190619820080FECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86103257190619820080FECC /* SimpleStorage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleStorage-Info.plist"; sourceTree = "<group>"; };
+		86103259190619820080FECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8610325B190619820080FECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8610325D190619820080FECC /* SimpleStorage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleStorage-Prefix.pch"; sourceTree = "<group>"; };
+		8610325E190619820080FECC /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		8610325F190619820080FECC /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		86103261190619820080FECC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86103267190619820080FECC /* SimpleStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86103268190619820080FECC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86103270190619820080FECC /* SimpleStorageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleStorageTests-Info.plist"; sourceTree = "<group>"; };
+		86103272190619820080FECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86103274190619820080FECC /* SimpleStorageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleStorageTests.m; sourceTree = "<group>"; };
+		8610327E19061A3D0080FECC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8610328019062D7B0080FECC /* XYZSaveFMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSaveFMViewController.h; sourceTree = "<group>"; };
+		8610328119062D7B0080FECC /* XYZSaveFMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSaveFMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86103249190619820080FECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86103252190619820080FECC /* CoreGraphics.framework in Frameworks */,
+				86103254190619820080FECC /* UIKit.framework in Frameworks */,
+				86103250190619820080FECC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86103264190619820080FECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86103269190619820080FECC /* XCTest.framework in Frameworks */,
+				8610326B190619820080FECC /* UIKit.framework in Frameworks */,
+				8610326A190619820080FECC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86103243190619820080FECC = {
+			isa = PBXGroup;
+			children = (
+				8610327E19061A3D0080FECC /* Main.storyboard */,
+				8610328019062D7B0080FECC /* XYZSaveFMViewController.h */,
+				8610328119062D7B0080FECC /* XYZSaveFMViewController.m */,
+				86103255190619820080FECC /* SimpleStorage */,
+				8610326E190619820080FECC /* SimpleStorageTests */,
+				8610324E190619820080FECC /* Frameworks */,
+				8610324D190619820080FECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8610324D190619820080FECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8610324C190619820080FECC /* SimpleStorage.app */,
+				86103267190619820080FECC /* SimpleStorageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8610324E190619820080FECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8610324F190619820080FECC /* Foundation.framework */,
+				86103251190619820080FECC /* CoreGraphics.framework */,
+				86103253190619820080FECC /* UIKit.framework */,
+				86103268190619820080FECC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86103255190619820080FECC /* SimpleStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8610325E190619820080FECC /* XYZAppDelegate.h */,
+				8610325F190619820080FECC /* XYZAppDelegate.m */,
+				86103261190619820080FECC /* Images.xcassets */,
+				86103256190619820080FECC /* Supporting Files */,
+			);
+			path = SimpleStorage;
+			sourceTree = "<group>";
+		};
+		86103256190619820080FECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86103257190619820080FECC /* SimpleStorage-Info.plist */,
+				86103258190619820080FECC /* InfoPlist.strings */,
+				8610325B190619820080FECC /* main.m */,
+				8610325D190619820080FECC /* SimpleStorage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8610326E190619820080FECC /* SimpleStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				86103274190619820080FECC /* SimpleStorageTests.m */,
+				8610326F190619820080FECC /* Supporting Files */,
+			);
+			path = SimpleStorageTests;
+			sourceTree = "<group>";
+		};
+		8610326F190619820080FECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86103270190619820080FECC /* SimpleStorageTests-Info.plist */,
+				86103271190619820080FECC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8610324B190619820080FECC /* SimpleStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86103278190619820080FECC /* Build configuration list for PBXNativeTarget "SimpleStorage" */;
+			buildPhases = (
+				86103248190619820080FECC /* Sources */,
+				86103249190619820080FECC /* Frameworks */,
+				8610324A190619820080FECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStorage;
+			productName = SimpleStorage;
+			productReference = 8610324C190619820080FECC /* SimpleStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86103266190619820080FECC /* SimpleStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8610327B190619820080FECC /* Build configuration list for PBXNativeTarget "SimpleStorageTests" */;
+			buildPhases = (
+				86103263190619820080FECC /* Sources */,
+				86103264190619820080FECC /* Frameworks */,
+				86103265190619820080FECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8610326D190619820080FECC /* PBXTargetDependency */,
+			);
+			name = SimpleStorageTests;
+			productName = SimpleStorageTests;
+			productReference = 86103267190619820080FECC /* SimpleStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86103244190619820080FECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					86103266190619820080FECC = {
+						TestTargetID = 8610324B190619820080FECC;
+					};
+				};
+			};
+			buildConfigurationList = 86103247190619820080FECC /* Build configuration list for PBXProject "SimpleStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86103243190619820080FECC;
+			productRefGroup = 8610324D190619820080FECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8610324B190619820080FECC /* SimpleStorage */,
+				86103266190619820080FECC /* SimpleStorageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8610324A190619820080FECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8610327F19061A3D0080FECC /* Main.storyboard in Resources */,
+				8610325A190619820080FECC /* InfoPlist.strings in Resources */,
+				86103262190619820080FECC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86103265190619820080FECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86103273190619820080FECC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86103248190619820080FECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8610328219062D7B0080FECC /* XYZSaveFMViewController.m in Sources */,
+				86103260190619820080FECC /* XYZAppDelegate.m in Sources */,
+				8610325C190619820080FECC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86103263190619820080FECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86103275190619820080FECC /* SimpleStorageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8610326D190619820080FECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8610324B190619820080FECC /* SimpleStorage */;
+			targetProxy = 8610326C190619820080FECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86103258190619820080FECC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86103259190619820080FECC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86103271190619820080FECC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86103272190619820080FECC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86103276190619820080FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86103277190619820080FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86103279190619820080FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStorage/SimpleStorage-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStorage/SimpleStorage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8610327A190619820080FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStorage/SimpleStorage-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStorage/SimpleStorage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8610327C190619820080FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleStorage.app/SimpleStorage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStorage/SimpleStorage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleStorageTests/SimpleStorageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8610327D190619820080FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleStorage.app/SimpleStorage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStorage/SimpleStorage-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStorageTests/SimpleStorageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86103247190619820080FECC /* Build configuration list for PBXProject "SimpleStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86103276190619820080FECC /* Debug */,
+				86103277190619820080FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86103278190619820080FECC /* Build configuration list for PBXNativeTarget "SimpleStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86103279190619820080FECC /* Debug */,
+				8610327A190619820080FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8610327B190619820080FECC /* Build configuration list for PBXNativeTarget "SimpleStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8610327C190619820080FECC /* Debug */,
+				8610327D190619820080FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86103244190619820080FECC /* Project object */;
+}
